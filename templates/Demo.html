@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="close_menu" id='1'>
+        <div class="cMenu"></div>
+        <div class="menu_active" id='2'>
+            <span class="close_btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
+                    <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
+                  </svg>
+            </span>
+            <div class="lin">
+                <a href="/" class="links">Home</a>
+                <a href="#" class="links">Products</a>
+                <a href="#" class="links">Services</a>
+                <a href="#" class="links">Contact</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrraper">
+        <header>
+            <div class="head">
+                <div class="header_logo">
+                <svg version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                    x="0px" y="0px" width="37.2px" height="37.2px" viewBox="0 0 37.2 37.2" style="enable-background:new 0 0 37.2 37.2;"
+                    xml:space="preserve">
+                <style type="text/css">
+                    .st0{fill:#4E90C2;}
+                    .st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+                </style>
+                <defs>
+                </defs>
+                <circle class="st0" cx="18.6" cy="18.6" r="18.6"/>
+                <path class="st1" d="M12.7,19.6c0.3,0,0.7,0.1,1.1,0.2c0.5,0.1,1.1,0.3,1.6,0.9c0.2,0.2,0.6,0.7,0.7,1.5c0.1,0.6-0.1,1.1-0.3,1.6
+                    c-0.1,0.2-0.2,0.5-0.5,0.9c-0.1,0.2-0.4,0.6-0.9,0.9c-0.7,0.4-1.4,0.3-1.8,0.2c-0.9-0.1-1.5-0.6-1.8-0.8c-0.5-0.4-0.7-0.8-0.9-1
+                    c-0.2-0.2-0.4-0.7-0.7-1.5c-0.1-0.5-0.4-1.6-0.3-3c0-0.6,0.1-1.6,0.5-2.7c0.5-1.2,1.2-1.9,1.8-2.6c1.1-1.2,2.2-1.9,2.8-2.5
+                    c0.2-0.2,0.4-0.3,0.6-0.5c0.1-0.1,0.2-0.1,0.3-0.2c0.2,0,0.4,0.2,0.4,0.2c0.9,1,1.5,1.4,1.3,1.7c0,0.1-0.1,0.1-0.3,0.3
+                    c-0.2,0.2-0.3,0.3-0.4,0.4c-0.3,0.3-0.5,0.4-0.7,0.6c0,0-0.6,0.5-1.1,1c-0.7,0.7-1,1.6-1.2,2.2C12.9,18.1,12.7,18.8,12.7,19.6z"/>
+                <path class="st1" d="M22.5,19.7c0.3,0,0.7,0.1,1.1,0.2c0.5,0.1,1.1,0.3,1.6,0.9c0.2,0.2,0.6,0.7,0.7,1.5c0.1,0.6-0.1,1.1-0.3,1.6
+                    c-0.1,0.2-0.2,0.5-0.5,0.9c-0.1,0.2-0.4,0.6-0.9,0.9c-0.7,0.4-1.4,0.3-1.8,0.2c-0.9-0.1-1.5-0.6-1.8-0.8c-0.5-0.4-0.7-0.8-0.9-1
+                    c-0.2-0.2-0.4-0.7-0.7-1.5c-0.1-0.5-0.4-1.6-0.3-3c0-0.6,0.1-1.6,0.5-2.7c0.5-1.2,1.2-1.9,1.8-2.6c1.1-1.2,2.2-1.9,2.8-2.5
+                    c0.2-0.2,0.4-0.3,0.6-0.5c0.1-0.1,0.2-0.1,0.3-0.2c0.2,0,0.4,0.2,0.4,0.2c0.9,1,1.5,1.4,1.3,1.7c0,0.1-0.1,0.1-0.3,0.3
+                    c-0.2,0.2-0.3,0.3-0.4,0.4c-0.3,0.3-0.5,0.4-0.7,0.6c0,0-0.6,0.5-1.1,1c-0.7,0.7-1,1.6-1.2,2.2C22.8,18.1,22.6,18.8,22.5,19.7z"/>
+                </svg>
+                </div>
+                <pre class="header_t">  Demo page one</pre>
+                <a href="#" class="header_burger_menu">
+                    <div class="buttom_menu">
+                        <span class="dec"></span>
+                        <span class="dec1"></span>
+                        <span class="dec2"></span>
+                    </div>
+                </a> 
+                <div class="licked">
+                    <a href="/" id="link" class="b1">Home</a>
+                    <a href="#" id="link" class="b2">Products</a>
+                    <a href="#" id="link" class="b3">Services</a>
+                    <a href="#" id="link" class="b4">Contact</a>
+                </div> 
+            </div>
+            <div class="downSlider"></div>
+            <div class="slider">
+                <div class="slider__item">
+                    <div class="elems">
+                        <h4 class="hider_one">Lorem ipsum dolor sit.</h4>
+                        <p class="demo-txt">
+                        Lorem, ipsum dolor sit 
+                        amet consectetur adipisicing elit.</p>
+                        <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg>Sing up now</button>
+                          <img src="{{ url_for('static', filename='imgFS/Phone.png') }}" alt="" class="demo-pic">
+                    </div>
+                    <img src="{{ url_for('static', filename='imgFS/1.jpg') }}" alt="animL" class="size1">
+                </div>
+                <div class="slider__item">
+                    <div class="elems">
+                        <h4 class="hider_one">Lorem dolor sit.</h4>
+                        <p class="demo-txt">
+                        Lorem, ipsum dolor sit 
+                        amet consectetur adipisicing elit.</p>
+                        <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg>Sing up now1</button>
+                          <img src="{{ url_for('static', filename='imgFS/Phone.png') }}" alt="" class="demo-pic">
+                    </div>
+                    <img src="{{ url_for('static', filename='imgFS/2.jpg') }}" alt="animL">
+                </div>
+                <div class="slider__item">
+                    <div class="elems">
+                        <h4 class="hider_one">Lorem dolor sit.</h4>
+                        <p class="demo-txt">
+                        Lorem, ipsum dolor  
+                        amet adipisicing elit.</p>
+                        <button class="button"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                          </svg>Sing up 3</button>
+                          <img src="{{ url_for('static', filename='imgFS/Phone.png') }}" alt="" class="demo-pic">
+                    </div>
+                    <img src="{{ url_for('static', filename='imgFS/3.jpg') }}" alt="animL">
+                </div>
+            </div>
+        </header>
+        
+        
+        <div class="content">
+            <div class="con-block" id="block1">
+                <img src="{{ url_for('static', filename='imgFS/pen.svg') }}" alt="animL" class="s2">
+                <div class="text">
+                    <p class="con_p">Lorem, ipsum dolor.</p>
+                    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate deleniti fuga? Sapiente.</p>
+                </div>
+            </div>
+            <div class="con-block" id="block2">
+                <img src="{{ url_for('static', filename='imgFS/pc.svg') }}" alt="animL" class="s2">
+                <div class="text">
+                    <p class="con_p">Lorem, ipsum dolor.</p>
+                    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate deleniti fuga? Sapiente.</p>
+                </div>
+            </div>
+            <div class="con-block" id="block3">
+                <img src="{{ url_for('static', filename='imgFS/bascet.svg') }}" alt="animL" class="s2">
+                <div class="text">
+                    <p class="con_p">Lorem, ipsum dolor.</p>
+                    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptate deleniti fuga? Sapiente.</p>
+                </div>
+            </div>
+
+            <div class="con-1">
+                <p class="p1">The Shopping cart</p>
+                <img src="{{ url_for('static', filename='imgFS/basc.svg') }}" alt="animL" id="s3">
+                <div class="text3">
+                    <p class="con_p1">Lorem, ipsum dolor.</p>
+                    <p class="text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos nam omnis explicabo ad harum, consequatur sequi voluptates voluptatibus! Possimus nesciunt omnis perferendis nihil quos accusantium totam eveniet nostrum pariatur tempore debitis similique harum minima officiis tenetur, iste saepe sint sapiente explicabo libero alias aperiam? Veniam saepe dolorem eaque eos fuga.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="footer_text">Demo 1 layout © 2021-2022</p>
+        </footer>
+    </div>
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='js/slick.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

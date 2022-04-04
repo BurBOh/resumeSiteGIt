@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resume</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/ADeP.css')}}">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='imgFS/ico.png')}}" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Waterfall&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="head">
+            <div class="head_imgBack">
+                <img src="{{ url_for('static', filename='imgFS/backP1.png') }}" alt="" class="head_img">
+                <div class="head_imgFace">
+                    <img src="{{ url_for('static', filename='imgFS/face.jpg') }}" alt="" class="face_img">
+                </div>
+            </div>
+        </header>
+        <div class="wrepper">
+            <div class="AboutME">
+                <div class="AboutME_title" id="One">
+                    Bohdan Burdernuk
+                </div>
+                <div class="AboutME_info_one">
+                    <div class="AboutME_columnOne">
+                        <div class="AboutME_text_sub"><h3>Location:</h3> <p class="textB">Spain</p></div>
+                        <div class="AboutME_text_sub"><h3>Age:</h3> <p class="textB">17</p></div>
+                        <div class="AboutME_text_sub"><h3>Email:</h3> <p class="textB">burbohdan64@gmail.com</p></div>
+                        <div class="AboutME_text_sub"><h3>Download Resume:</h3> <a href="https://drive.google.com/drive/folders/1fPRuclwkdJMpSIXdifz36Qj89MbWFm0Z?usp=sharing" class="textB">https://drive.google.com/drive...</a><style>a{color: #000;}  a:hover{ color: rgb(151, 151, 151);}</style></div>
+                    </div>
+                    <div class="AboutME_columnTwo">
+                        <div class="AboutME_text_sub"><h3>Languages:</h3> <p class="textB">English, Ukrainian, Russian</p></div>
+                        <div class="AboutME_text_sub"><h3>Experience:</h3> <p class="textB">3 years</p></div>
+                        <div class="AboutME_text_sub"><h3>Career Level:</h3> <p class="textB">Junior-developer</p></div>
+                        <div class="AboutME_text_sub"><h3>Nationality:</h3> <p class="textB">Ukraine</p></div>
+                    </div>
+                </div>
+                <div class="AboutME_info">
+                    <div class="AboutME_columnOne">
+                        <div class="AboutME_text_sub_Two"><h3>Skills and projects:</h3> <p class="textB">Started studying JavaScript programming now Python and C ++. I have experience in creating templates for websites, minimal robotics skills, average 3D modeling skills. I am currently developing a fully functional website. </p></div>
+                    </div>
+                    <div class="AboutME_columnOne">
+                        <div class="AboutME_text_sub_Two"><h3>Education:</h3> <p class="textB">Now I have completed the first two courses at the Yuriy Fedkovych National University. I have a secondary education.</p></div>
+                    </div>
+                    <div class="AboutME_columnOne">
+                        <div class="AboutME_text_sub_Two"><h3>My qualities:</h3> <p class="textB">I adapt very quickly to the new environment, and I communicate well in the team. If necessary, I quickly learn new skills.</p></div>
+                    </div>
+                    <div class="AboutME_columnOne">
+                        <div class="AboutME_text_sub_Two"><h3>Technologies:</h3> <p class="textB">HTML, CSS (SASS, SCSS) , JavaScript (Jquery), Python (Flask), C++, SQL (MySQL)</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="link_To_project">
+                <div class="AboutME_title" id="Three">
+                    <h2>~Links to projects~</h2> 
+                </div>
+                <div class="Link_of_project">
+                    <div class="project" id="P_one">
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="/Demo_1" class="link">Demo One</a>
+                        </div>
+                        
+                    </div>
+                    <div class="project" id="P_two">
+                        <style> 
+                        </style>
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="/Demo_2" class="link">Demo Two</a>
+                        </div>
+                        
+                    </div>
+                    <!-- <div class="project end" id="1" >
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="" class="link">example</a>
+                        </div>
+                        
+                    </div> -->
+                </div>
+
+                <!-- <div class="Link_of_project">
+                    <div class="project" id="1">
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="" class="link">example</a>
+                        </div>
+                        
+                    </div>
+                    <div class="project" id="1">
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="" class="link">example</a>
+                        </div>
+                        
+                    </div>
+                    <div class="project end" id="1">
+                        <div class="gdadienrBack"></div>
+                        <div class="name_project">
+                            <a href="" class="link">example</a>
+                        </div>
+                        
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <footer></footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="{{ url_for('static', filename='js/scriptOne.js') }}"></script>
+    </body>
+</html>

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='Tempcss/StyleTempSass.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="head">
+            <div class="head__IcoContent">
+                <div class="head__img">
+                    <img src="{{ url_for('static', filename='imgFS/ico/Ico.png')}}" alt="Logo" class="head__ico" width="50px" height="50px">
+                </div>
+                <div class="head__icoText">
+                    <div class="head__text">BAK-ONE <div class="head__Icosub__text">One Page Flat Template</div></div>
+                </div>
+            </div>
+            <div class="head__menu">
+                <div class="head__links">
+                    <a href="/" class="head__link">HOME</a>
+                    <a href="" class="head__link">PORTFOLIO</a>
+                    <a href="" class="head__link">ABOUT</a>
+                    <a href="" class="head__link">CONTACT</a>
+                </div>
+            </div>
+            <div class="head__Bmenu">
+                <div class="dec"></div>
+            </div>
+            <div class="close_btn">
+                <div class="dec1"></div>
+            </div>
+            <div class="head__menu__active">
+                <div class="close_block">
+                
+                </div>
+                <a href="" class="link1">HOME</a>
+                <a href="" class="link1">PORTFOLIO</a>
+                <a href="" class="link1">ABOUT</a>
+                <a href="" class="link1">CONTACT</a>
+            </div>
+        </div>
+        <div class="baner">
+            <img src="{{ url_for('static', filename='imgFS/ico/banerIMG.png')}}" alt="" class="baner_IMG">
+            <div class="baner__content">
+                <div class="baner_P_One">
+                    We Build<pre class="addP"> Brand</pre>
+                </div>
+                <p class="baner__subP">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit ipsam aut eligendi cupiditate, adipisci earum aliquam laboriosam numquam qui enim dolor quis tempora natus fugiat?</p>
+                <div class="baner__btn__more">
+                    <a href="#" class="baner_Bnt">LEARN MORE</a>
+                </div>
+                <div class="baner__subBTN">
+                    <a href="#" class="baner__btnIMG"><img src="{{ url_for('static', filename='imgFS/ico/btn.png')}}" alt="" class="sizeBTN"></a>
+                </div>
+            </div>
+        </div>
+        <div class="selectorOne">
+            <h1 class="selectorOne__heading">
+                Portfolio
+            </h1>
+            <p class="selectorOne__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <div class="selectorOne__select">
+                <a href="" class="selectorONE_link " id='active'>All</a>
+                <a href="" class="selectorONE_link">WEB DESIGN</a>
+                <a href="" class="selectorONE_link">GRAPHIC DESIGN</a>
+                <a href="" class="selectorONE_link">FLAT DESIGN</a>
+            </div>
+            <div class="selectorOne__ico">
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/01.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/02.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/03.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/04.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/05.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/06.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/07.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+                <div class="selectorOne__ico__img">
+                    <a href="" class="selectorOne__ico__link">
+                        <img src="{{ url_for('static', filename='imgFS/ico/08.png')}}" alt="" class="selectorOne__img">
+                    </a>
+                    <div class="selectorOne__ico__hoverElem">
+                        <a href="" class="selectorOne__ico__search">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </a>
+                        <p class="selectorOne__img__title">
+                            Example Title
+                        </p>
+                        <p class="selectorOne__img__subTitle">
+                            Web design
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selectorOne second">
+            <h1 class="selectorOne__heading">
+                About Us
+            </h1>
+            <p class="selectorOne__text">
+                Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <div class="second__urs">
+                <div class="selectorOne__select__Second">
+                    <div class="selectorOne__select__Second__user">
+                        <img src="{{ url_for('static', filename='imgFS/ico/UIco.png')}}" alt="" class="userIMG">
+                        <div class="userIMG__Hover">
+                            <a href="" class="Social__Link" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/twiterIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/googlePlusIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/BasketBallIco.png')}}" alt="" class="socialICo">
+                            </a>
+                        </div>
+                        <div class="selectorOne__select__Second__text">
+                            <p class="selectorOne__select__Second__title">
+                                Name Last name
+                            </p>
+                            <p class="selectorOne__select__Second__specialty">
+                                Lorem, ipsum.
+                            </p>
+                            <p class="selectorOne__select__Second__Subtext">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore, esse dolorem corporis tempora cumque!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="selectorOne__select__Second__user">
+                        <img src="{{ url_for('static', filename='imgFS/ico/UIco.png')}}" alt="" class="userIMG">
+                        <div class="userIMG__Hover">
+                            <a href="" class="Social__Link" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/twiterIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/googlePlusIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/BasketBallIco.png')}}" alt="" class="socialICo">
+                            </a>
+                        </div>
+                        <div class="selectorOne__select__Second__text">
+                            <p class="selectorOne__select__Second__title">
+                                Name Last name
+                            </p>
+                            <p class="selectorOne__select__Second__specialty">
+                                Lorem, ipsum.
+                            </p>
+                            <p class="selectorOne__select__Second__Subtext">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore, esse dolorem corporis tempora cumque!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="selectorOne__select__Second__user" id="selectorOne__select__Second__user_end">
+                        <img src="{{ url_for('static', filename='imgFS/ico/UIco.png')}}" alt="" class="userIMG">
+                        <div class="userIMG__Hover">
+                            <a href="" class="Social__Link" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/twiterIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/googlePlusIco.png')}}" alt="" class="socialICo">
+                            </a>
+                            <a href="" class="Social__Link">
+                                <img src="{{ url_for('static', filename='imgFS/ico/BasketBallIco.png')}}" alt="" class="socialICo">
+                            </a>
+                        </div>
+                        <div class="selectorOne__select__Second__text">
+                            <p class="selectorOne__select__Second__title">
+                                Name Last name
+                            </p>
+                            <p class="selectorOne__select__Second__specialty">
+                                Lorem, ipsum.
+                            </p>
+                            <p class="selectorOne__select__Second__Subtext">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate inventore, esse dolorem corporis tempora cumque!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selectorOne theard">
+            <h1 class="selectorOne__heading theards">
+                Contact Us
+            </h1>
+            <p class="selectorOne__text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </p>
+            <div class="selectorOne__return__form">
+                <div class="form">
+                    <div class="form__one">
+                        <form action="" method="post" class="form__Your__name" name="Name">
+                            <input type="text" class="Your__data" form="Name" placeholder="Your name">
+                        </form>
+                        <form action="" method="post" class="form__Your__email" name="Email">
+                            <input type="text" class="Your__data" form="Email" placeholder="Your email">
+                        </form>
+                    </div>
+                    <div class="form__two">
+                        <form action="" method="post" class="form__Your__email" name="Mesaage">
+                            <textarea type="text" cols="40" rows="10" class="Your__Mesaage" form="Mesaage" placeholder="Your Mesaage"></textarea>
+                            <input type="submit" value="SUBMIT" class="submit">
+                        </form>
+                    </div>
+                </div>
+                <div class="selectorOne__Add__Info">
+                    <p class="selectorOne__Add__Info__title">
+                        INFORMATION
+                    </p>
+                    <div class="map__marc">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                        </svg>
+                        Bak-One Company<br>    
+                        12345 Hollywood Bvld Street  <br>    
+                        Los Ange <br>
+                    </div>
+                    <div class="tel__number">
+                        <img src="{{ url_for('static', filename='imgFS/telephone.svg')}}" alt="" class="tel__ico">
+                            <p class="tel">
+                                +444 (Phone) 123456
+                            </p>
+                    </div>
+                    <div class="tel__number">
+                        <img src="{{ url_for('static', filename='imgFS/fax.svg')}}" alt="" class="fax__ico">
+                            <p class="tel">
+                                +123 (FAX) 0011223
+                            </p>
+                    </div>
+                    <div class="tel__number">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open" viewBox="0 0 16 16">
+                            <path d="M8.47 1.318a1 1 0 0 0-.94 0l-6 3.2A1 1 0 0 0 1 5.4v.817l5.75 3.45L8 8.917l1.25.75L15 6.217V5.4a1 1 0 0 0-.53-.882l-6-3.2ZM15 7.383l-4.778 2.867L15 13.117V7.383Zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734ZM7.059.435a2 2 0 0 1 1.882 0l6 3.2A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765l6-3.2Z"/>
+                        </svg>
+                            <p class="tel">
+                                info@bak-onecompany.com
+                            </p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <footer>
+            <p class="footer__text">
+                @DEMO PAGE
+            </p>
+            <div class="btn_up">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+                </svg>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script_BM.js') }}"></script>
+</body>
+</html>
